@@ -5,16 +5,10 @@
 
 /* ВСТАВЬ URL ФОНА HERO */
 :root {
-  --bg-hero: url("https://s139vla.storage.yandex.net/rdisk/09bcaca3d3cddf74c119d57df48f44f5896ff101d6029bbe65d145c53e590a9d/69491e69/fKqInKw3d7bLFOeFnMGnhGdkvQ9dctl8S7a0lKxSW5clyw-98kT7sG-N-vGBRakxageduHQpi6h9Cy0pF6wJ2viMx5XKZNV_vFSNhU0EjByr8npumZHI4midPdWhecNq?uid=1130000067673599&filename=ChatGPT%20Image%2021%20%D0%B4%D0%B5%D0%BA.%202025%20%D0%B3.%2C%2011_21_08.png&disposition=attachment&hash=&limit=0&content_type=image%2Fpng&owner_uid=1130000067673599&fsize=2763804&hid=756b361f2ecba0b603c07a78082b35da&media_type=image&tknv=v3&etag=ce5b103db90ed3693788b66e05e31e8b&ts=64687f445ac40&s=cd67a92c08ae38d13fbee70e5656de47e20328caa2ef610037d7027958ed4a48&pb=U2FsdGVkX18NcsouH9EvB8fRYHWOqILl-vwMa-CIyDjB-uN5NEc6XPfVRAXEvWHpnZOtUjiH7eCsGFB6UgeEO6ZLfGOsb_Up3TaUj0bCoiVVkJHO81VxLHnQlWQq94Fl");
-
-  /* ВСТАВЬ URL ФОНА ABOUT */
-  --bg-about: url("https://s835sas.storage.yandex.net/rdisk/794f7974fc9504f19c6e937adc2fea357151bd39943f71bc85b58a30882b99ff/69491e6b/fKqInKw3d7bLFOeFnMGnhC45oThgRv9pFAzu82lChzau-1_8B5zrQIFGAI7qnTibToPT4P_J6LszPh_4q1BLkuHCDhcgSrDYtxEOZQelMYer8npumZHI4midPdWhecNq?uid=1130000067673599&filename=image%20%286%29.png&disposition=attachment&hash=&limit=0&content_type=image%2Fpng&owner_uid=1130000067673599&fsize=1155441&hid=097ddc4439aac5420720a3501829901a&media_type=image&tknv=v3&etag=fd8f6f7e0aade88faa5fd49ff00eae16&ts=64687f46430c0&s=a4c49068f45198e11d30c6abe3d3afa0d29d41c6913af1dc23459f5f19c0d3c6&pb=U2FsdGVkX18uGpZQl6a54cy4K6KJf6jZLxFYyD0CFTnav2gohm5vSXbwaZTKwVjAiPZPHZ4DK075i__GQwuM3L5CPHDHAbEaW_jR8h6Qz0mDbnwqcn92YjRP26MY_fN_");
-
-  /* ВСТАВЬ URL ФОНА SERVICES */
-  --bg-services: url("https://s819sas.storage.yandex.net/rdisk/1b1bf7697b1288244b28bfe985c4d062e375580fe5551987e155f16c928cff59/69491e6e/fKqInKw3d7bLFOeFnMGnhKtWzQ0zFjFrw7jyLvQbAkLo4z1EXpNVjS0hZi51rQkjqYBmcsWTaIJzbLI_toom27MTUbL5xuQQSUSSBGkfTyKr8npumZHI4midPdWhecNq?uid=1130000067673599&filename=%D0%9F%D0%BE%D0%BB%D0%BD%D0%BE%D0%BB%D1%83%D0%BD%D0%B8%D0%B5.png&disposition=attachment&hash=&limit=0&content_type=image%2Fpng&owner_uid=1130000067673599&fsize=2718517&hid=310a9ee56fbdfc688d8804e65592087c&media_type=image&tknv=v3&etag=59d87e712f293656c033f9a30e2082c4&ts=64687f491f780&s=4c1731adb2065711295db14bc1a327e391d2cd318e56f3246b1438114b3f9c64&pb=U2FsdGVkX18NPz4DSTEdi-Jcj-GCrxwvjwsCH7Z4r1UJqyePBUaUaDnTMtsSygyu_ojzAdbplALjaCnXab0-sWaaVCcE7WrDXcyYkfSAqkvXxNImMRXBduL1GRcSjJ2L");
-
-  /* ВСТАВЬ URL ФОНА CONTACTS */
-  --bg-contacts: url("https://s201vla.storage.yandex.net/rdisk/da5e3c49e1a3deac5ae4124efef22b197df844c7837e54ecc272081391705439/69491e71/fKqInKw3d7bLFOeFnMGnhDojBXl5em_lrzmp137RCE5IHxJ8UHVSH_yCNj5CakKA08rsbA7UwUy55GgFTxHZoFzAdQeV7WxhgM-cP6EcRy-r8npumZHI4midPdWhecNq?uid=1130000067673599&filename=%D1%82%D1%80%D0%BE%D0%BB%D0%BB%D1%8C%209%20%D1%84%D0%BE%D0%BD.png&disposition=attachment&hash=&limit=0&content_type=image%2Fpng&owner_uid=1130000067673599&fsize=1475718&hid=5b3f2f8b62c8f84d60199aa722a7a98a&media_type=image&tknv=v3&etag=678d4d12c50cf5f39f795538f749f2a7&ts=64687f4bfbe40&s=aefbb59fee4f6b84e32c0581ea508e06cc6441e739136351f2674bcdf3090542&pb=U2FsdGVkX19LApQWuZhCXT-lR7Daxs1wsH_kpVFmivfzHNOo1_R55-YSch3tgRZO9vFDm-Rf8oA6hg6XpsUYa_1mhoKbidpeZhLIt3wazQZggeKHZnYfagEQrRW8-31H");
+  --bg-hero: url("./assets/hero.jpg");
+  --bg-about: url("./assets/about.jpg");
+  --bg-services: url("./assets/services.jpg");
+  --bg-contacts: url("./assets/contacts.jpg");
 }
 
 /* БАЗА */
