@@ -5,10 +5,10 @@
 
 /* ВСТАВЬ URL ФОНА HERO */
 :root {
-  --bg-hero: url("./assets/hero.jpg");
-  --bg-about: url("./assets/about.jpg");
-  --bg-services: url("./assets/services.jpg");
-  --bg-contacts: url("./assets/contacts.jpg");
+  --bg-hero: url("./assets/hero.png");
+  --bg-about: url("./assets/about.png");
+  --bg-services: url("./assets/services.png");
+  --bg-contacts: url("./assets/contacts.png");
 }
 
 /* БАЗА */
@@ -320,3 +320,4 @@ p  { font-size: 18px; line-height: 1.6; opacity: 0.95; }
   .topbar__inner { height: 60px; }
   .topbar__cta { display: none; } /* убери строку, если хочешь кнопку "Связаться" на мобиле */
 }
+
