@@ -11,7 +11,7 @@ body {
   color: #fff;
 
   /* 🔹 ОДИН ОБЩИЙ ФОН */
-  background-image: url("assets/hero.png"); /* ← МЕНЯЕШЬ ФОН ТУТ */
+  background-image: url("https://susliche007-a11y.github.io/site/assets/new%20fon.png"); /* ← МЕНЯЕШЬ ФОН ТУТ */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -273,3 +273,4 @@ p {
     padding: 80px 0;
   }
 }
+
