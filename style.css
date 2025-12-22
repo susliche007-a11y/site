@@ -5,7 +5,7 @@
 
 /* ВСТАВЬ URL ФОНА HERO */
 :root {
-  --bg-hero: url("https://susliche007-a11y.github.io/site/assets/hero.png");
+  --bg-hero: url("https://susliche007-a11y.github.io/site/assets/hero2.png");
   --bg-about: url("https://susliche007-a11y.github.io/site/assets/about.png");
   --bg-services: url("https://susliche007-a11y.github.io/site/assets/services.png");
   --bg-contacts: url("https://susliche007-a11y.github.io/site/assets/contacts.png");
@@ -320,6 +320,7 @@ p  { font-size: 18px; line-height: 1.6; opacity: 0.95; }
   .topbar__inner { height: 60px; }
   .topbar__cta { display: none; } /* убери строку, если хочешь кнопку "Связаться" на мобиле */
 }
+
 
 
 
