@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Сайт-визитка</title>
+  <meta name="description" content="Сайт-визитка: услуги, примеры, контакты.">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ШАПКА -->
+  <header class="topbar" id="topbar">
+    <div class="container topbar__inner">
+
+      <!-- ЛОГО (ссылка на облако) + название -->
+      <a class="brand" href="#top" aria-label="На главную">
+        <!-- ВСТАВЬ ССЫЛКУ НА ЛОГО В src -->
+        <img class="brand__logo"
+             src="https://s1196sas.storage.yandex.net/rdisk/9c23374da6cb17ae361dc62ab77880657ea72e5479be93d117a755408f5c0cc6/69491dca/hyxiWa1p-Jt6xnRo62s7DeshgW6sJL6b-EMR3SwSScPAyedwqYj7_f-mtGlDxpMThckreKDFKdbf2ft5U5lYYw==?uid=1130000067673599&filename=%D0%9F%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE%20%D0%9B%D0%9D%D0%A0%20%D0%B2%D0%B5%D1%80%D1%82%20%D1%86%D0%B2%D0%B5%D1%82%2009191340.jpg&disposition=attachment&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1130000067673599&fsize=90145&hid=6ad88ba8952c208c19b941810b582220&media_type=image&tknv=v3&etag=001966509804023992aacb889e31cd32&ts=64687eacb8680&s=d2e915179f359f3b8544fd1109c2b8b62c3549e6e92f90204fc2681236cf1449&pb=U2FsdGVkX1-z1HnXsBvJ9KGlrVcZCqC6y58xvdIGb5NRGe5JiiBGuJJCgvYu8sEuM29zIHO7Yo4gg6qFPJ-2XKeOAvyzRk0meHvTIjDUz5k"
+             alt="Логотип" />
+        <span class="brand__text">Название / Имя</span>
+      </a>
+
+      <!-- ДЕСКТОП-МЕНЮ -->
+      <nav class="nav nav--desktop" aria-label="Основная навигация">
+        <a class="nav__link" href="#about" data-target="about">Обо мне</a>
+        <a class="nav__link" href="#services" data-target="services">Услуги</a>
+        <a class="nav__link" href="#contacts" data-target="contacts">Контакты</a>
+      </nav>
+
+      <div class="topbar__right">
+        <a class="topbar__cta" href="#contacts">Связаться</a>
+
+        <!-- БУРГЕР -->
+        <button class="burger" id="burger"
+                aria-label="Открыть меню"
+                aria-controls="mobileMenu"
+                aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- МОБИЛЬНОЕ МЕНЮ -->
+    <div class="mobile" id="mobileMenu" aria-hidden="true">
+      <nav class="nav nav--mobile" aria-label="Мобильная навигация">
+        <a class="nav__link" href="#about" data-target="about">Обо мне</a>
+        <a class="nav__link" href="#services" data-target="services">Услуги</a>
+        <a class="nav__link" href="#contacts" data-target="contacts">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO (фон по ссылке из облака задаётся в style.css) -->
+  <section class="section section--hero bg bg-hero parallax" id="top" data-speed="0.35">
+    <div class="overlay"></div>
+    <div class="container content">
+      <h1>Иван Иванов</h1>
+      <p>Коротко: кто вы и чем полезны (1–2 строки).</p>
+      <div class="actions">
+        <a class="btn" href="#contacts">Связаться</a>
+        <a class="btn btn--ghost" href="#services">Услуги</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section bg bg-about parallax" id="about" data-speed="0.25">
+    <div class="overlay"></div>
+    <div class="container content card">
+      <h2>Обо мне</h2>
+      <p>Короткое описание. 2–4 предложения.</p>
+      <ul class="bullets">
+        <li>Преимущество №1</li>
+        <li>Преимущество №2</li>
+        <li>Преимущество №3</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="section bg bg-services parallax" id="services" data-speed="0.20">
+    <div class="overlay"></div>
+    <div class="container content">
+      <h2>Услуги</h2>
+
+      <div class="grid">
+        <article class="tile">
+          <h3>Услуга 1</h3>
+          <p>Короткое описание услуги (1–2 строки).</p>
+        </article>
+
+        <article class="tile">
+          <h3>Услуга 2</h3>
+          <p>Короткое описание услуги (1–2 строки).</p>
+        </article>
+
+        <article class="tile">
+          <h3>Услуга 3</h3>
+          <p>Короткое описание услуги (1–2 строки).</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTS -->
+  <section class="section bg bg-contacts parallax" id="contacts" data-speed="0.18">
+    <div class="overlay"></div>
+    <div class="container content card">
+      <h2>Контакты</h2>
+
+      <div class="contacts">
+        <a href="tel:+79990000000">+7 999 000-00-00</a>
+        <a href="mailto:test@mail.ru">test@mail.ru</a>
+        <a href="https://t.me/username" target="_blank" rel="noopener">Telegram</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">© 2025</div>
+  </footer>
+
+  <script>
+    // ==========================================================
+    // 0) Хелперы
+    // ==========================================================
+    const clamp = (v, min, max) => Math.max(min, Math.min(max, v));
+
+    // ==========================================================
+    // 1) Элементы
+    // ==========================================================
+    const topbar = document.getElementById('topbar');
+    const burger = document.getElementById('burger');
+    const mobileMenu = document.getElementById('mobileMenu');
+    const overlays = document.querySelectorAll('.overlay');
+
+    const parallaxSections = Array.from(document.querySelectorAll('.parallax'));
+
+    const sections = [
+      document.getElementById('about'),
+      document.getElementById('services'),
+      document.getElementById('contacts'),
+    ].filter(Boolean);
+
+    const allNavLinks = Array.from(document.querySelectorAll('.nav__link'));
+
+    // ==========================================================
+    // 2) Мобильное меню
+    // ==========================================================
+    function setMenu(open) {
+      burger.setAttribute('aria-expanded', String(open));
+      mobileMenu.setAttribute('aria-hidden', String(!open));
+      mobileMenu.classList.toggle('mobile--open', open);
+      burger.classList.toggle('burger--open', open);
+      document.body.classList.toggle('no-scroll', open);
+    }
+
+    burger.addEventListener('click', () => {
+      const isOpen = burger.getAttribute('aria-expanded') === 'true';
+      setMenu(!isOpen);
+    });
+
+    // Закрытие по клику на пункт
+    mobileMenu.addEventListener('click', (e) => {
+      const a = e.target.closest('a');
+      if (a) setMenu(false);
+    });
+
+    // Закрытие по Esc
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') setMenu(false);
+    });
+
+    // ==========================================================
+    // 3) Плавная прокрутка с учётом высоты шапки
+    // ==========================================================
+    document.querySelectorAll('a[href^="#"]').forEach(link => {
+      link.addEventListener('click', (e) => {
+        const id = link.getAttribute('href');
+        if (!id || id === '#') return;
+        const target = document.querySelector(id);
+        if (!target) return;
+
+        e.preventDefault();
+
+        const topbarH = topbar.offsetHeight;
+        const y = target.getBoundingClientRect().top + window.pageYOffset - topbarH + 1;
+
+        window.scrollTo({ top: y, behavior: 'smooth' });
+      });
+    });
+
+    // ==========================================================
+    // 4) Динамическое затемнение оверлея + затемнение шапки
+    // ==========================================================
+    function updateOverlays() {
+      const viewportH = window.innerHeight;
+
+      overlays.forEach(ov => {
+        const section = ov.parentElement;
+        const rect = section.getBoundingClientRect();
+
+        const sectionCenter = rect.top + rect.height / 2;
+        const viewportCenter = viewportH / 2;
+        const dist = Math.abs(sectionCenter - viewportCenter);
+
+        const t = clamp(dist / viewportCenter, 0, 1);
+
+        const base = 0.42; // минимум затемнения
+        const extra = 0.33; // насколько усиливается
+        const alpha = base + extra * t;
+
+        ov.style.background = `rgba(0,0,0,${alpha.toFixed(3)})`;
+      });
+
+      // шапка темнеет при прокрутке
+      const sc = window.scrollY;
+      const a = clamp(sc / 220, 0, 1);
+      topbar.style.background = `rgba(10,10,10,${(0.22 + 0.70*a).toFixed(3)})`;
+      topbar.style.borderBottomColor = `rgba(255,255,255,${(0.06 + 0.10*a).toFixed(3)})`;
+    }
+
+    // ==========================================================
+    // 5) Подсветка активного пункта меню
+    // ==========================================================
+    function setActive(targetId) {
+      allNavLinks.forEach(a => {
+        a.classList.toggle('is-active', a.dataset.target === targetId);
+      });
+    }
+
+    function initActiveObserver() {
+      const topbarH = topbar.offsetHeight;
+
+      const io = new IntersectionObserver((entries) => {
+        const visible = entries
+          .filter(en => en.isIntersecting)
+          .sort((a,b) => b.intersectionRatio - a.intersectionRatio)[0];
+
+        if (visible && visible.target && visible.target.id) {
+          setActive(visible.target.id);
+        }
+      }, {
+        threshold: [0.2, 0.35, 0.5, 0.65],
+        rootMargin: `-${topbarH + 10}px 0px -45% 0px`
+      });
+
+      sections.forEach(s => io.observe(s));
+      return io;
+    }
+
+    let activeObserver = initActiveObserver();
+
+    // ==========================================================
+    // 6) Параллакс (через requestAnimationFrame)
+    // ==========================================================
+    let ticking = false;
+
+    function updateParallax() {
+      const sc = window.scrollY;
+
+      parallaxSections.forEach(sec => {
+        const speed = parseFloat(sec.dataset.speed || '0.2');
+        const y = Math.round(sc * speed);
+        sec.style.backgroundPosition = `center ${-y}px`;
+      });
+
+      ticking = false;
+    }
+
+    function onScroll() {
+      updateOverlays();
+      if (!ticking) {
+        ticking = true;
+        requestAnimationFrame(updateParallax);
+      }
+    }
+
+    // ==========================================================
+    // 7) События
+    // ==========================================================
+    window.addEventListener('scroll', onScroll, { passive: true });
+
+    window.addEventListener('resize', () => {
+      updateOverlays();
+      updateParallax();
+
+      if (activeObserver) activeObserver.disconnect();
+      activeObserver = initActiveObserver();
+    });
+
+    // старт
+    updateOverlays();
+    updateParallax();
+    setActive('about');
+  </script>
+
+</body>
+</html>
