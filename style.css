@@ -328,4 +328,27 @@ p {
     transform: none;
   }
 }
+/* МОБИЛА: фиксируем фон (центральную часть) */
+@media (max-width: 768px) {
+  /* 1) отключаем фон на body, чтобы не мешал */
+  body {
+    background: #111 !important; /* просто подложка */
+  }
 
+  /* 2) создаём "приклеенный" фон поверх body, но под контентом */
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+
+    background-image: url("https://github.com/susliche007-a11y/site/blob/main/assets/fon%20mob.png?raw=true");
+    background-repeat: no-repeat;
+
+    /* чтобы было видно целиком */
+    background-size: contain;
+
+    /* фиксируем именно центральную часть */
+    background-position: center center;
+  }
+}
