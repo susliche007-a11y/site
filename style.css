@@ -324,3 +324,8 @@ p {
   }
 }
 
+@media (max-width: 768px) {
+  .section--hero .content {
+    transform: none;
+  }
+}
