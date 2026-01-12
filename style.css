@@ -12,7 +12,7 @@ body {
   font-family: Arial, sans-serif;
   color: #fff;
 
-  background-image: url("https://s399klg.storage.yandex.net/rdisk/34ca30717d61c1659ba61245a4b28f05c07cc41f00403e935e027ebfe953ee79/6964f465/fKqInKw3d7bLFOeFnMGnhI1kIFaoJi6pPp1LYTjQ83cJ9XA0MVrrAs9aPj-RmS_lU4VegV8LWUiFZFJg8HLEYCFMJniuikDGSwYX9DKiVa2r8npumZHI4midPdWhecNq?uid=1130000067673599&filename=hero2.png&disposition=attachment&hash=&limit=0&content_type=image%2Fpng&owner_uid=1130000067673599&fsize=1636804&hid=e2d0c51e4285ba32e5c051af02f11a0d&media_type=image&tknv=v3&etag=529e3065f2a31d323018550f82d84335&ts=64830b22a2340&s=b549ba49303a92e844111ff5950684b74acab27a7395f6979e6c1953349d56cb&pb=U2FsdGVkX190Oq7xkZPyRn8ilmomaCSeXi1JUXHA50ezHZ-wCsneahmrcmUfQqASLcxo2kHMeYpm__NWNIr9oQi8Q7MOGLOkBh00SyaMHRFC2iPzVGNQ0ckztc9ALRLE");
+  background-image: url("https://github.com/susliche007-a11y/site/blob/main/assets/hero.png?raw=true");
   background-size: cover;
   background-position: center -120px;
   background-repeat: no-repeat;
@@ -323,3 +323,4 @@ p {
     display: inline-block;
   }
 }
+
